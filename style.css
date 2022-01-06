@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family:"Poppins", sans-serif;;
+    font-family:"Poppins", sans-serif;
     font-size: 16px;
 }
 
@@ -14,7 +14,7 @@ body {
 }
 
 .focus-title-black {
-    font-family: 'Yeseva One', cursive;
+    font-family: "Yeseva One", cursive;
     font-weight: 400;
     color: #333333;
     font-size: 45px;
@@ -27,7 +27,7 @@ body {
 }
 
 .focus-title-colored {
-    font-family: 'Yeseva One', cursive;
+    font-family: "Yeseva One", cursive;
     font-weight: 400;
     color:#FFAD5A;
     font-size: 40px;  
@@ -164,12 +164,11 @@ body {
 }
 
 .quote-conatainer {
-	font-family: "Roboto", sans-serif;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	overflow: hidden;
-	padding-bottom:50px ;
+	padding-bottom: 50px ;
 }
    
 img {
@@ -199,7 +198,6 @@ img {
 }
 
 .card-excerpt {
-	color: #777;
 	margin: 10px 0 20px;
 }
 
@@ -239,7 +237,7 @@ footer {
 }
 
 .footer-title {
-    font-family: 'Lobster', cursive;
+    font-family: "Lobster", cursive;
     color: #fff;
     font-weight: 400;
 }
@@ -249,6 +247,6 @@ footer {
 }
 
 .footer-details {
-    font-family: 'Manrope', sans-serif;
+    font-family: "Manrope", sans-serif;
     color: #D9DBE1;
 }
