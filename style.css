@@ -34,18 +34,14 @@ body {
     font-size: 40px;  
 }
 
-
-
 .focus-image img {
-    width: 100%;
-    
+    width: 100%;   
 }
 
 .flex-container {
     width: 50%;
     padding-left: 10%;
-    padding-right: 10%;
-   
+    padding-right: 10%;  
 }
 
 .focus-text {
@@ -90,11 +86,11 @@ body {
 }
 
 #illustrator-mission {
-    background-color: rgb(79, 157, 166, .1);
+    background-color: rgba(79, 157, 166,.1);
 }
 
 #illustrator-vision{
-    background-color:rgb(255, 89, 89, .1);
+    background-color:rgba(255, 89, 89, .1);
 }
 
 #illustrator-goals {
@@ -143,11 +139,11 @@ body {
 
 .global-community-container {
     display: flex;  
+    margin-bottom: 60px;
 }
 
 .global-image  img {
     width: 100%;
-
 }
 
 .global-items {
@@ -159,6 +155,85 @@ body {
 .global-title {
     font-size: 35px;
     font-weight: 700;
+}
+
+.inspiration-title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.quote {
+    color: #FFAD5A;
+}
+
+.quote-conatainer {
+	font-family: "Roboto", sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	padding-bottom:50px ;
+}
+   
+img {
+	max-width: 100%;
+}
+
+.card {
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	overflow: hidden;
+	width: 350px;
+}
+
+.card-header {
+	height: 200px;
+}
+
+.card-header img {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.card-content {
+	background-color: #fff;
+	padding: 30px;
+}
+
+.card-excerpt {
+	color: #777;
+	margin: 10px 0 20px;
+}
+
+.author {
+	display: flex;
+}
+
+.profile-img {
+	border-radius: 50%;
+	overflow: hidden;
+	height: 40px;
+	width: 40px;
+}
+
+.author-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-left: 10px;
+	width: 150px;
+}
+
+.author-info small {
+	color: #aaa;
+	margin-top: 5px;
+}
+
+.inspiration-btn {
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 footer {
@@ -181,5 +256,3 @@ footer {
     font-family: 'Manrope', sans-serif;
     color: #D9DBE1;
 }
-   
-
