@@ -10,8 +10,7 @@ body {
 }
 
 .focus-items {
-    padding-top: 10%;
-    
+    padding-top: 10%;  
 }
 
 .focus-title-black {
@@ -116,8 +115,7 @@ body {
 
 .limits-items {
     padding-left: 10px;
-    padding-top: 20px;
-    
+    padding-top: 20px;   
 }
 
 .limit-title {
@@ -133,8 +131,7 @@ body {
     border: none;
     color: #fff;
     padding: 15px 25px;
-    border-radius: 5px;
-    
+    border-radius: 5px;   
 }
 
 .global-community-container {
@@ -149,7 +146,6 @@ body {
 .global-items {
     padding-right: 10px;
     padding-top: 20px;
-  
 }
 
 .global-title {
