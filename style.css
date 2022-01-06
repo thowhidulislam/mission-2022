@@ -24,6 +24,7 @@ body {
     border-left: 4px solid;
     border-image: linear-gradient(#FF5959,#FF5959);
     border-image-slice: 1;
+    margin: 5px;
 }
 
 .focus-title-colored {
@@ -141,14 +142,8 @@ body {
 }
 
 .global-community-container {
-    display: flex;
-    background-image: url(images/shapes/shape-1.png);
-    background-size: 300px;
-    background-repeat: no-repeat;
-    background-position:  right 10px bottom -120px;
+    display: flex;  
 }
-
-
 
 .global-image  img {
     width: 100%;
@@ -165,4 +160,26 @@ body {
     font-size: 35px;
     font-weight: 700;
 }
+
+footer {
+    background-color: #0B0D17;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-title {
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    font-weight: 400;
+}
+
+.footer-year {
+    color: #FF5959;
+}
+
+.footer-details {
+    font-family: 'Manrope', sans-serif;
+    color: #D9DBE1;
+}
+   
 
